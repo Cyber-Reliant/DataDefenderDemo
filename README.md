@@ -1,4 +1,4 @@
-# Cyber Reliant DataDefender demo app
+# Cyber Reliant DataDefender Android demo
 
 This application demonstrates usage of the CRCDataDefender Android library.
 
@@ -11,7 +11,8 @@ implementation 'com.cyberreliant:CRCDataDefender:4.0.4.3'
 
 ### Adding CRC package repo
 The releases of CRCDataDefender are in a private Maven repository. You have to add the repo and set up authentication.
-application build.gradle
+
+:file_folder: application build.gradle
 ```gradle
 repositories {
     maven {
@@ -28,7 +29,7 @@ repositories {
 Build will not work until the settings.xml file has been edited to include authorization to the Cyber Reliant release server.
 Access to the Cyber Reliant release server is granted upon request.
 
-$USER_HOME/.m2/settings.xml example:
+:file_folder: $USER_HOME/.m2/settings.xml
 ```xml
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
