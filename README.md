@@ -1,10 +1,12 @@
 # Cyber Reliant DataDefender Android demo
 
 This application demonstrates usage of the CRCDataDefender Android library.
+Please refer to the [build.gradle](DataDefenderDemo/build.gradle) in this project for a full example.
 
 ## Key concepts
 
 ### Using CRCDataDefender in your application build.gradle dependencies
+:file_folder: application build.gradle
 ```gradle
 implementation 'com.cyberreliant:CRCDataDefender:4.0.4.3'
 ```
