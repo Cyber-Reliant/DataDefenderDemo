@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 30
 
     defaultConfig {
         applicationId "CRC.DataDefender.DefenderDemo"
@@ -35,15 +35,14 @@ android {
             jniDebuggable = true
         }
     }
-    packagingOptions {
-        pickFirst '**/*.so'
-    }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
-    buildToolsVersion '30.0.3'
-    ndkVersion '22.0.7026061'
+    kotlinOptions {
+        jvmTarget = "11"
+        useIR = true
+    }
 }
 
 // adds the CRC Maven repo information

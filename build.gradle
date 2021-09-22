@@ -4,7 +4,7 @@ buildscript {
     ext.kotlin_version = '1.5.31'
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.0.2'
@@ -16,10 +16,5 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
     }
 }
-
-/*task clean(type: Delete) {
-    delete rootProject.buildDir
-}*/
