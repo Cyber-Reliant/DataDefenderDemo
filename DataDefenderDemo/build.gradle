@@ -35,14 +35,6 @@ android {
             jniDebuggable = true
         }
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
-    }
-    kotlinOptions {
-        jvmTarget = "11"
-        useIR = true
-    }
 }
 
 // adds the CRC Maven repo information
