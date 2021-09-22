@@ -267,11 +267,11 @@ public class MainActivity extends AppCompatActivity {
         final String roomTag = TAG + "/Room";
         Log.d(roomTag, "room test begin");
         AsyncTask.execute(() -> {
-            final long t0 = System.nanoTime();
 
             Log.d(roomTag, "removing any previous app.db");
             SQLiteDatabase.deleteDatabase(getDatabasePath("app.db"));
 
+            final long t0 = System.nanoTime();
             RoomTest.Companion.test_single_insert(getApplicationContext());
             test_result("Room_test_single_insert", "", "", t0);
 
