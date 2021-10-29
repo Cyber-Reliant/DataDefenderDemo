@@ -67,6 +67,6 @@ dependencies {
     kapt "androidx.room:room-compiler:$room_version"
 
     // the CRC Mobile Data Defender package
-    implementation 'com.cyberreliant:CRCDataDefender:4.0.4.3'
+    implementation 'com.cyberreliant:CRCDataDefender:4.0.6.6'
 
 }
