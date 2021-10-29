@@ -8,7 +8,7 @@ Please refer to the [build.gradle](DataDefenderDemo/build.gradle) in this projec
 ### Using CRCDataDefender in your application build.gradle dependencies
 :file_folder: application build.gradle
 ```gradle
-implementation 'com.cyberreliant:CRCDataDefender:4.0.4.3'
+implementation 'com.cyberreliant:CRCDataDefender:4.0.6.6'
 ```
 
 ### Adding CRC package repo
